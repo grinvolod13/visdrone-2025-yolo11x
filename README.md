@@ -8,6 +8,9 @@ We trained Yolo11x model for  [KAU Object Detection: VisDrone 2025](https://www.
 ⭐ We got  **mAP50=0.461**  and  **mAP50-95 = 0.267** on validation dataset
 
 Submission file: [submission-yolo11x-100.csv](./submission-yolo11x-100.csv)
+### Example 
+ * ![Image alt](__results___files/__results___26_1.jpg)
+ * ![Image alt](__results___files/__results___25_1.png)
 
 ## 🔗 Links to notebooks, datasets, competition
  * [Competition](https://www.kaggle.com/competitions/kau-object-detection-vis-drone-2025)  - contains original dataset in PascalVOC-like format 
