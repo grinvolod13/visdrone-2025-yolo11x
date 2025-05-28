@@ -8,9 +8,21 @@ We trained Yolo11x model for  [KAU Object Detection: VisDrone 2025](https://www.
 ⭐ We got  **mAP50=0.461**  and  **mAP50-95 = 0.267** on validation dataset
 
 Submission file: [submission-yolo11x-100.csv](./submission-yolo11x-100.csv)
-### Example 
- * ![Image alt](__results___files/__results___26_1.jpg)
- * ![Image alt](__results___files/__results___25_1.png)
+<details>
+<summary>
+ 
+###    Detection examples
+
+</summary>
+
+<p align="center">
+ 
+<img src="./__results___files/__results___26_1.jpg" width=920/>
+<img src="./__results___files/__results___25_1.png" width=920/>
+
+</p>
+
+</details>
 
 ## 🔗 Links to notebooks, datasets, competition
  * [Competition](https://www.kaggle.com/competitions/kau-object-detection-vis-drone-2025)  - contains original dataset in PascalVOC-like format 
@@ -39,5 +51,5 @@ Additionally, we tried various combinations of training, such as folowing, but t
 
 ## ▶️ Install & run 
 Training was performed in [Kaggle notebook](https://www.kaggle.com/code/volodymyrhryniuk/kau-visdrone-2025-yolov11x-training/) with **2x Tesla T4** GPU
-
-All notebooks are intended to run in Kaggle environment, so if you want to launch them elsewere, please, change all paths to appropriate, and install all needed CUDA libraries
+> [!WARNING]
+> All notebooks are intended to run in Kaggle environment, so if you want to launch them elsewere, please, change all paths to appropriate, and install all needed CUDA libraries
